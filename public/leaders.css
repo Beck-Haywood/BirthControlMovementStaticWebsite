@@ -16,9 +16,10 @@ body {
     width: 100%;
     padding: 70px 0px 0px 0px;
     justify-content: center;
+    align-items: center;
     margin-left: 7%;
     background: rgb(186,117,106);
-background: radial-gradient(circle, rgba(186,117,106,1) 0%, rgba(186,117,106,0) 93%);
+    background: radial-gradient(circle, rgba(186,117,106,1) 0%, rgba(186,117,106,0) 93%);
     padding-top: 5%;
 
    
@@ -28,8 +29,9 @@ background: radial-gradient(circle, rgba(186,117,106,1) 0%, rgba(186,117,106,0) 
     background-color: #2C2F2E;
 	border-radius: 1px;
     box-shadow:  0 0 10px #242525;
-	height: 450px;
-	margin: 0 auto;
+	height: 50vh;
+    margin-right: auto;
+    margin-left: auto;
 	max-width: 300px;
     overflow: scroll;
     padding: 50px 50px 50px 50px;

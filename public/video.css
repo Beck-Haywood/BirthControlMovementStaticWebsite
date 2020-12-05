@@ -14,20 +14,16 @@ body {
 
 .video {
     border-radius: 4px;
-    padding: 50px 50px 20px 50px;
-    /* margin: px; */
+    padding: 50px 0px 50px 0px;
+    align-items: center;
     border: 1px solid rgb(139, 138, 138);
-    /* margin-left: 10%; */
-    /* padding-left: 10%; */
+    margin-left: 10%;
+    padding-left: 10%;
 
   }
   .video iframe {
     border-radius: 4px;
-    margin-left: 45px;
-    margin-right: 45px;
-
     position: relative;
-
   }
 
   h1 {
@@ -37,3 +33,6 @@ body {
     color: rgb(202, 202, 202);
   }
 
+  h3 {
+    font-size: 10px;
+  }

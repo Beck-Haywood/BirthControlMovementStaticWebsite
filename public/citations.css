@@ -21,7 +21,7 @@ h1 {
 }
 
 .container {
-    text-align: center;
+    text-align: left;
     margin: auto;
     width: 60%;
 }
@@ -29,7 +29,5 @@ h1 {
 h4 {
     color: white;
     font-size: 10px;
-    text-transform: uppercase;
-    letter-spacing: 2.0px;
     padding-top: 15px;
 }
