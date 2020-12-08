@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>The Birth Control Movement</title>
-        <link rel="stylesheet" href="./public/leaders.css">
+        <link rel="stylesheet" href="./public/women.css">
         <link rel="stylesheet" href="./public/navbar.css">
 
     </head>
@@ -26,64 +26,52 @@
         </nav>
     </header>
     <div class="title1">Leaders of The Birth Control Movement</div>
-    <div class="container">
-        <div class="card">
-            <div class="media"><img src="./public/images/sanger2.jpg"></div>
-                <div class="card-body">
-                <h3 class="title text-center">Margaret Sanger</h3>
-                <h3 class="bd">Born: September 14, 1879</h3>
-                <h3 class="bd">Died: September 6, 1966</h3>
-                <div class="divider"></div>
-                <h5 class="paragraph">Coined the term birth control(1914)
-                </h5>
-                <h5 class="paragraph">Opened the first birth control clinic(1916)
-                </h5>
-                <h5 class="paragraph">Wrote books on birth control leading her to be prosecuted because of the Comstock Act(1916)
-                </h5>
-                <h5 class="paragraph">Founded the Planned Parenthood Federation of America(1916)
-                </h5>
-                <h5 class="paragraph">Summary: Changed the views of many on birth control by coining the term, opening a clinic to spread information, and fighting agaisnt the Comstock act.
-                </h5>
+    <div class="a-b-container">
+        <div class="tabContainer">
+        <div class="buttonContainer">
+            <button onclick="showPanel(0,'#3C484D')">Margaret Sanger</button>
+            <button onclick="showPanel(1, '#3C484D')">Mary Dennet</button>
+            <button onclick="showPanel(2,'#3C484D')">Katharine Mcmormick</button>
+        </div>
+        <div class="tabPanel">
+        <div class="dif">
+            <p> aaaaa</p>
+        </div>
+        <div class="play-as">
+            <p> oooooo</p>
+        </div>
+        <div class="play-as">
+            <p> iiiii</p>
+        </div>
+        </div>
+        <div class="tabPanel">
+        <div class="lore">
+            <p>uuuuuu</p>
+        </div>
+        </div>
+        <div class="tabPanel">
+        <div class="items">
+            <p>ttttttttt</p>
+             
     </div>
-</div>
-</div>
-<div class="container">
-    <div class="card">
-        <div class="media"><img src="./public/images/mary.jpg"></div>
-            <div class="card-body">
-            <h3 class="title text-center">Mary Dennett</h3>
-            <h3 class="bd">Born: April 4, 1872</h3>
-            <h3 class="bd">Died: July 25, 1947</h3>
-            <div class="divider"></div>
-            <h5 class="paragraph">Wrote a famous pamphlet called “The Sex Side of Life” originally to educate her kids but was distributed later, leading to her being prosecuted by the Comstock act(1915)
-            </h5>
-            <h5 class="paragraph">Co founded the National Birth Control League(1921)</h5>
-            <h5 class="paragraph">Rallied supporters to fight against laws that made birth control information illegal, like the Comstock Act(1930)
-            </h5>
-            <h5 class="paragraph">Summary: Taught the US accurate information on sex education, when there was no way to recieve it.
-            </h5>
-</div>
-</div>
-</div>
-<div class="container">
-    <div class="card">
-        <div class="media"><img src="./public/images/kath.png"></div>
-            <div class="card-body">
-            <h3 class="title text-center">Katharine McCormick</h3>
-            <h3 class="bd">Born: April 4, 1872 </h3>
-            <h3 class="bd">Died: July 25, 1947</h3>
-            <div class="divider"></div>
-            <h5 class="paragraph">One of the first women to graduate from Massachusetts Institute of Technology in 1904 with a degree in biology(1904)
-            </h5>
-            <h5 class="paragraph">Helped smuggle over 1000 diaphragms from europe into America(1920s)
-            </h5>
-            <h5 class="paragraph">Made large orders for diaphragms by posing as a german/french scientist(1920s)
-            </h5>
-            <h5 class="paragraph">Established the Neuroendocrine Research Foundation because her husband had schizophrenia and she believed it could have been cured with hormone treatment(1927)</h5>
-            <h5 class="paragraph">Donated 2 million or (20 million today) to help develop the first oral birth control pill(1953)
-            </h5>
-            <h5 class="paragraph">Summary: Brought birth control into the US, and largely funded the birth control pill creating a important choice for women.
-            </h5>
-</div>
-</div>
-</div>
+    </div>  
+
+<script>
+    var tabButtons=document.querySelectorAll(".tabContainer .buttonContainer button");
+    var tabPanels=document.querySelectorAll(".tabContainer  .tabPanel");
+    function showPanel(panelIndex,colorCode) {
+    tabButtons.forEach(function(node){
+        node.style.backgroundColor="";
+        node.style.color="";
+    });
+    tabButtons[panelIndex].style.backgroundColor=colorCode;
+    tabButtons[panelIndex].style.color="white";
+    tabPanels.forEach(function(node){
+        node.style.display="none";
+    });
+    tabPanels[panelIndex].style.display="block";
+    tabPanels[panelIndex].style.backgroundColor="";
+}
+showPanel(0,'#1A1A1A');
+
+    </script>
