@@ -25,10 +25,7 @@ body {
     overflow: scroll;
     transition: 500ms;
     border-radius: 20px;
-    
-    
-    
-    
+   
 }
 
 /* .tabContainer .buttonContainer{
@@ -93,7 +90,7 @@ body {
     
 }
 
-/* Font */ 
+/* Font sizes */ 
 
 .c {
     font-size: 9px;
@@ -114,19 +111,24 @@ body {
 }
 
 
-/* Images / Citations placement */
+
+/* Images / Citations / Font placement */
+
+h1 {
+    padding: 10% 10% 10% 10%;
+}
 .media img {
     height: 60%;
-    width: 80%;
-    border-radius: 150px;
+    width: 70%;
+    border-radius: 350px;
     border: #BCBDBD 5px solid;  
 }
 
 
 
 .cm2 img {
-    width: 700px;
-    height: 500px;
+    width: 80%;
+    height: 80%;
 }
 
 .c2 {
