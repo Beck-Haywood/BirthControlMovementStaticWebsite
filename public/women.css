@@ -15,7 +15,7 @@ body {
 .a-b-container {
     width: 700px;
     height: 600px;
-    margin-left: 30px;
+    margin: auto;
     box-sizing: border-box;  
 }
 
@@ -48,20 +48,20 @@ body {
     padding: 10px;
     font-family: sans-serif;
     font-size: 18px;
-    background-color: #ECF0F0 !important;;
+    background-color: #BCBDBD !important;
     letter-spacing: 2px;
     
 
 }
 
 .tabContainer .buttonContainer button:focus {
-    background-color: black !important;
+    background-color: #1A1A1A !important;
     transition: 500ms;
 }
 
 
 .tabContainer .buttonContainer button:hover{
-    background-color: #696969 !important;;
+    background-color: #252827 !important;;
     transition: 500ms;
 }
 .tabContainer .tabPanel{
@@ -81,8 +81,6 @@ body {
 .tabPanel {
     letter-spacing: 1px;
     margin: 20px 20px 20px 20px;
-    animation-name: appear;
-    animation-duration: 1.4s;
     transition: all 500ms cubic-bezier(0.550, 0.085, 0.680, 0.530);
 
 }
